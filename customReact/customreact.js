@@ -26,7 +26,7 @@ const reactElement = {
     children: 'Click me to visit google'
 }
 
-const mainContainer = document.querySelector('#root')
+ReactDOM.createRoot(document.getElementById('root'))
 
 
 customRender(reactElement, mainContainer)
